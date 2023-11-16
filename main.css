@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #EFF0F3;
+    box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+}
+
+.header__controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    color: var(--Black, #2B2C34);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 22px;
+    padding-bottom: 20px;
+}
+
+.header__logo {
+    padding-top: 26px;
+    padding-bottom: 15px;
+}
+.header__logo-1 {
+    color: #001858;
+    font-family: Plus Jakarta Sans;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.header__logo-2 {
+    color: var(--Blue, #6246EA);
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
