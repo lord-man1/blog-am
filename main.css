@@ -6,9 +6,11 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 300px;
     background: #EFF0F3;
     box-shadow: 4px 6px 13px 0px rgba(215, 215, 215, 0.25);
+    padding: 0 95px;
 }
 
 .header__controls {
@@ -28,8 +30,8 @@ header {
 }
 
 .header__logo {
-    padding-top: 26px;
-    padding-bottom: 15px;
+    padding-top: 22px;
+    padding-bottom: 20px;
 }
 .header__logo-1 {
     color: #001858;
@@ -47,4 +49,88 @@ header {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 185px 95px 284px 95px;
+    background: #D2D6DB;
+    gap: 116px;
+}
+
+.hero__info h1 {
+    color: #2B2C34;
+    font-family: Plus Jakarta Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.hero__info p {
+    color: var(--Dark-Grey, #9A9494);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* width: 75%; */
+    margin-bottom: 30px;
+    border-left: solid;
+    border-color: #2B2C34;
+    padding-left: 12px;
+}
+
+.email__form {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.email__form button {
+    display: flex;
+    height: 67px;
+    padding: 20px 23px 19px 23px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    background: var(--Blue, #6246EA);
+    color: var(--White, #FFFFFE);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.email__form input {
+    display: flex;
+    padding: 21px 200px 21px 25px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: var(--White, #FFFFFE);
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email__form input::placeholder {
+    color: var(--Grey, #C0C0C0);
+}
+
+.hero__image {
+    width: 375px;
+    height: 558px;
 }
