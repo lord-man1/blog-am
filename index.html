@@ -11,29 +11,113 @@
 <body>
 <header>
     <div class="header__logo">
-        <span class="header__logo-1">Dasteen</span>
-        <span class="header__logo-2">.Blog</span>
+        <span class="header__logo-1">Dasteen</span><span class="header__logo-2">.Blog</span>
     </div>
     <nav class="header__controls">
-        <a>Home</a>
-        <a>Category</a>
-        <a>About Me</a>
-        <input type="text" class="input__field-search" 
-            name="search" placeholder="Search"/>
-        <a>Buy Me A Coffee</a>
+        <a class="sub__heading-2">Home</a>
+        <a class="sub__heading-2">Category</a>
+        <a class="sub__heading-2">About Me</a>
+        <!-- <input type="text" class="input__field-search" 
+            name="search" placeholder="Search"/> -->
+        <a class="header__controls-coffee">
+          <img src="coffee.svg">Buy Me A Coffee</a>
     </nav>
 </header>
 <section class="hero">
     <div class="hero__info">
-        <h1>Hi, I’m Dasteen<br>Front End Dev</h1>
-        <p>On this blog I share tips and tricks, frameworks, projects, tutorials, etc<br/>
+        <h1 class="heading__1">Hi, I’m Dasteen<br>Front End Dev</h1>
+        <p class="paragraph-1">On this blog I share tips and tricks, frameworks, projects, tutorials, etc<br/>
             Make sure you subscribe to get the latest updates</p>
         <form class="email__form">
-            <input type="email" name="email" placeholder="Enter your email here...."/>
-            <button type="submit">Subscribe</button>
+            <input class="paragraph-1" type="email" name="email" placeholder="Enter your email here...."/>
+            <button class="sub__heading-2" type="submit">Subscribe</button>
         </form>
     </div>
-    <img class="hero__image" src="pic.jpg" alt="pic"/>
+    <div class="hero__image">
+        <img src="pic.jpg" alt="pic"/>
+    </div>
+    <div class="hero__scroll">
+        <a href="#categories"><img src="scroll.svg"/></a>
+    </div>
 </section>
+<section id="categories" class="categories">
+    <div class="section__heading">
+        <p class="sub__heading-1">Browse The Category <img src="line.svg"/>
+        </p>
+        <p class="sub__heading-2">See All Category <img src="arrow-right.svg"/></p>
+    </div>
+    <div class="categories__cards">
+        <div class="categories__card">
+            <div class="categories__card-content">
+                <img src="css.svg"/>
+                <p class="sub__heading-1">CSS</p>
+            </div>
+        </div>
+        <div class="categories__card">
+            <div class="categories__card-content">
+                <img src="js.svg"/>
+                <p class="sub__heading-1">JavaScript</p>
+            </div>
+        </div>
+        <div class="categories__card">
+            <div class="categories__card-content">
+                <img src="tailwing.svg"/>
+                <p class="sub__heading-1">Tailwind</p>
+            </div>
+        </div>
+        <div class="categories__card">
+            <div class="categories__card-content">
+                <img src="vue.svg"/>
+                <p class="sub__heading-1">Vue JS</p>
+            </div>
+        </div>
+        <div class="categories__card">
+            <div class="categories__card-content">
+                <img src="react.svg"/>
+                <p class="sub__heading-1">React JS</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="articles">
+    <div class="section__heading">
+        <p class="sub__heading-1">Featured Article <img src="line.svg"/>
+        </p>
+        <p class="sub__heading-2">See All Article <img src="arrow-right.svg"/></p>
+    </div>
+    <div class="articles__cards">
+        <div class="article__card">
+            <div class="article__card-content">
+                <div class="article__card-content-heading">
+                    <img src="article1.png"/>
+                    <p class="sub__heading-2">Fundamental Of JavaScript</p>
+                </div>
+                <div class="article__card-content-meta">
+                    <img src="pic.jpg"/>
+                    <div class="article__card-content-meta-frame">
+                        <p class="paragraph-3">Dasteen</p>
+                        <p class="paragraph-4">Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="article__card">
+            <div class="article__card-content">
+                <div class="article__card-content-heading">
+                    <img src="article1.png"/>
+                    <p class="sub__heading-2">Fundamental Of JavaScript</p>
+                </div>
+                <div class="article__card-content-meta">
+                    <img src="pic.jpg"/>
+                    <div class="article__card-content-meta-frame">
+                        <p class="paragraph-3">Dasteen</p>
+                        <p class="paragraph-4">Jan 10, 2022 ∙ 3 min read</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class=""
 </body>
 </html>
